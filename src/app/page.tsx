@@ -7,7 +7,7 @@ interface VerifiableCredential {
   type: string;
   issuer: string;
   issued: string;
-  expires: string;
+  expires?: string;
   claims: Record<string, any>;
   verified: boolean;
 }
